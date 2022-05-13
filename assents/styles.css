@@ -73,7 +73,7 @@ header label:hover {
     }
 }
 
-/* IN.TRO */
+/* INTRO */
 
 .container {
     width: 100%;
@@ -83,8 +83,6 @@ header label:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
-    bottom: 120px;
 }
 
 .perfil {
@@ -98,12 +96,8 @@ header label:hover {
 }
 
 .imagen {
-    width: 90%;
-    background-color: aqua;
-    /* margin-top: 40px; */
-}
-
-.cont {
+    width: 100%;
+    padding: 20px;
     height: 200px;
 }
 
@@ -113,10 +107,12 @@ header label:hover {
 
 .color-letter {
     color: #ADADAD;
+    padding: 5px;
 }
 
 .color-letter2 {
     color: #FFFFFF;
+    padding: 20px;
 }
 
 .letter1 {
@@ -128,12 +124,15 @@ header label:hover {
     flex-wrap: wrap;
 }
 
+.letter3 {
+    font-size: 25px;
+}
+
 .logos {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 10px;
-    height: 50px;
+    padding: 5px 5px;
 }
 
 .logo {
@@ -150,10 +149,21 @@ header label:hover {
     padding: 20px;
 }
 
-.container-hbs {
-    height: 200px;
-    padding: 10px;
-    flex-wrap: wrap;
+.bg-color {
+    background-color: #101111; 
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.flex {
+    overflow: hidden;
+}
+
+.alinear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* float: left; */
 }
 
 .ct {
@@ -173,4 +183,30 @@ header label:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.borde {
+    border: solid 1px white;
+    /* background-color: azure; */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+}
+
+/* Desktop */
+
+@media (min-width: 992px) {
+    .letter1 {
+        font-size: 50px;
+    }
+    .letter2 {
+        font-size: 100px;
+    }
+    .letter3 {
+        font-size: 50px;
+    }
+    .logo {
+        width: 70px;
+    }
 }
