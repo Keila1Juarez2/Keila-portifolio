@@ -26,7 +26,6 @@ header label {
     width: 30px;
     height: 30px;
     padding: 10px;
-    /* border-right: 1px solid #fff; */
 }
 
 header label:hover {
@@ -39,18 +38,14 @@ header label:hover {
     list-style: none;
     padding: 0;
     display: flex;
-}
-
-.menu li {
-    /* border-right: 1px solid #fff; */
     justify-content: flex-end;
 }
 
-.menu ul :hover {
+.menu li :hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.menu ul a {
+.menu li a {
     display: block;
     padding: 15px 20px;
     color: #FFFFFF;
@@ -71,7 +66,6 @@ header label:hover {
         flex-direction: column;
     }
     .menu li {
-        /* width: 100%; */
         border-top: 1px solid #fff;
     }
     #btn-menu:checked ~ .menu {
@@ -79,58 +73,104 @@ header label:hover {
     }
 }
 
-/* INTRO */
+/* IN.TRO */
 
-.imagen {
+.container {
     width: 100%;
-    height: 300px;
-    padding: 20px;
-    position: relative;
-    top: -170px;
-}
-
-.perfil {
-    width: 30%;
 }
 
 .dec-perfil {
     display: flex;
-    justify-content: center;
     align-items: center;
-    /* position: absolute; */
-    /* top: 20px; */ 
+    justify-content: center;
+    /* position: relative; */
+    bottom: 120px;
 }
 
-/* .container-perfil {
-    
-} */
+.perfil {
+    width: 35%;
+}
 
-.text {
+.decoracion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen {
+    width: 90%;
+    background-color: aqua;
+    /* margin-top: 40px; */
+}
+
+.cont {
+    height: 200px;
+}
+
+.letters {
     text-align: center;
-    position: relative;
-    bottom: 150px;
+}
+
+.color-letter {
+    color: #ADADAD;
+}
+
+.color-letter2 {
+    color: #FFFFFF;
 }
 
 .letter1 {
-    color: #ADADAD;
     font-size: 25px;
 }
 
 .letter2 {
-    color: #FFFFFF;
-    font-size: 35px;
+    font-size: 40px;
     flex-wrap: wrap;
 }
 
-.iconos {
+.logos {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    position: relative;
+    padding: 10px 10px;
+    height: 50px;
+}
+
+.logo {
+    width: 40px;
 }
 
 .decoracion {
     width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+
+.espacio {
+    padding: 20px;
+}
+
+.container-hbs {
     height: 200px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.ct {
+    border: solid 1px red;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagenes {
+    width: 300px;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
