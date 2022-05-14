@@ -86,18 +86,11 @@ header label:hover {
 }
 
 .perfil {
-    width: 35%;
-}
-
-.decoracion1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100px;
 }
 
 .imagen {
     width: 100%;
-    padding: 20px;
     height: 200px;
 }
 
@@ -168,8 +161,8 @@ header label:hover {
 
 .ct {
     border: solid 1px red;
-    height: 150px;
-    padding: 10px;
+    /* height: 150px;
+    padding: 10px; */
     text-align: center;
 }
 
@@ -187,11 +180,14 @@ header label:hover {
 
 .borde {
     border: solid 1px white;
-    /* background-color: azure; */
     border-radius: 50%;
     width: 60px;
     height: 60px;
 
+}
+
+.bord {
+    
 }
 
 /* Desktop */
