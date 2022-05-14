@@ -75,18 +75,19 @@ header label:hover {
 
 /* INTRO */
 
-.container {
-    width: 100%;
-}
-
-.dec-perfil {
+.perfil {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.perfil {
-    width: 100px;
+.perfil2 {
+    width: 150px;
+}
+
+.position {
+    position: relative;
+    top: -150px;
 }
 
 .imagen {
@@ -186,10 +187,6 @@ header label:hover {
 
 }
 
-.bord {
-    
-}
-
 /* Desktop */
 
 @media (min-width: 992px) {
@@ -204,5 +201,15 @@ header label:hover {
     }
     .logo {
         width: 70px;
+    }
+    .perfil2 {
+        width: 250px;
+    }
+    .imagen {
+        height: 400px;
+    }
+    .position {
+        position: relative;
+        top: -300px;
     }
 }
